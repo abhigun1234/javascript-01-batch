@@ -1,16 +1,16 @@
-var a=false;
-var b={id:false}// object
-function myfunc(x,y){
-x=true
-y.id=true
-console.log("inside x=",x)
-console.log("inside y=",y)
-}
+// var a=false;
+// var b={id:false}// object
+// function myfunc(x,y){
+// x=true
+// y.id=true
+// console.log("inside x=",x)
+// console.log("inside y=",y)
+// }
 
 
-myfunc(a,b)
-console.log("out a",a)
-console.log("out b",b)
+// myfunc(a,b)
+// console.log("out a",a)
+// console.log("out b",b)
 // console.log("value of a ",a)
 // console.log("value of b ",b)
 //rest operator
@@ -61,3 +61,31 @@ console.log("out b",b)
 // array1.sort();
 // console.log(array1);
 // expected output: Array [1, 100000, 21, 30, 4]
+
+
+
+
+// function hello(){
+
+
+//     console.log("hello")
+// }
+
+// hello()
+//anonymus function
+// var hello=function (){
+
+//     console.log("hello")
+// }
+
+// hello()
+//es6 fat arraow
+var hello=(a)=>{
+
+    console.log("hello")
+
+}
+
+hello(2)
+//  factorial of the no  and peint the table of the same no with es6 fat arrow function also check the no 
+//is even or odd

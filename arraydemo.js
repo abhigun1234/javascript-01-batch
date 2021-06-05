@@ -1,3 +1,4 @@
+
 // push pop shift unshift
 
 //  const fruits = ["Banana", "Orange", "Apple", "Mango"];
@@ -11,6 +12,41 @@
 // fruits.splice(0, 2); 
 
 
+
+
+//every and some
+// var products=[{id:1,name:'tv',price:2000}]
+
+
+// var ages = [32, 33, 1, 40];
+
+// function checkAdult(age) {
+//   return age >= 18;
+// }
+
+// value=ages.every(checkAdult)
+// console.log("value",value)
+
+// var ages = [3, 10, 18, 20];
+
+// function checkAdult(age) {
+//   return age >= 18;
+// }
+// value=ages.some(checkAdult)
+// console.log("value",value)
+
+
+//map filter
+const arr=[1,2,3,4,5,6]
+const newArr=arr.filter(a=> a%2===0)
+console.log("newArr",newArr)
+// const newArrmap=arr.map(a=> a*a)
+// console.log("newArr",newArrmap)
+
+
+
+
+//foreach
 // fruits.forEach((item,index,arr)=>{
 //     console.log("item",item,index) 
 // });
@@ -65,15 +101,18 @@
 
 
 // map method
-// const  numbers=[1,2,3,4,5]
+// const  numbers=[{name:'abhishek',address:'pune'},{name:'sashi',address:'banglore'}]
 
 
 
 
-// const numberDubble=numbers.map(dubble)
-// // const numberDubble= numbers.map((item,index,arr)=>{
-// //     return value *2;
-// //   })
+// // const numberDubble=numbers.map(dubble)
+// const numberDubble= numbers.map((item,index,arr)=>{
+//     console.log(item.name)
+//     console.log(index)
+//     console.log(arr)
+//   })
+//   console.log("numberDubble",numberDubble)
 // function dubble(value,index ,arr){
 //   return value **2;
 // }
@@ -101,3 +140,21 @@
 // ]
 // const adults =people.filter(person=>person.age>=3)
 // console.log("adults".adults)
+
+
+// function add(...nums){
+
+// console.log("nums",nums)
+// // return a+b
+
+// }
+
+// sum=add(2,3)
+// sum=add(2,3.6)
+// sum=add(2,3.6,4,5)
+// // console.log("sum",sum)
+// let sports=["cricket","football","bedmenton"]
+// sports.splice(2,0,"kabadi","vollyball")
+// console.log(sports)
+//array distructuring  
+//
