@@ -32,4 +32,4 @@ var maruti=new Car()
 var superpower=new SuperCar()
 maruti.run()
 var extrasuperpower=new ExtraSuper()
-extresuperPower.r
+

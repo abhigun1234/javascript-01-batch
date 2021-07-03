@@ -1,16 +1,16 @@
-// var a=false;
-// var b={id:false}// object
-// function myfunc(x,y){
-// x=true
-// y.id=true
-// console.log("inside x=",x)
-// console.log("inside y=",y)
-// }
+var a=false;
+var b={id:false}// object
+function myfunc(x,y){
+x=true
+y.id=true
+console.log("inside x=",x)
+console.log("inside y=",y)
+}
 
 
-// myfunc(a,b)
-// console.log("out a",a)
-// console.log("out b",b)
+myfunc(a,b)
+console.log("out a",a)
+console.log("out b",b)
 // console.log("value of a ",a)
 // console.log("value of b ",b)
 //rest operator

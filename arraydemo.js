@@ -1,5 +1,5 @@
 
-// push pop shift unshift
+//push pop shift unshift
 
 //  const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
@@ -8,17 +8,17 @@
 // fruits.unshift("Sweet Lime")
 // console.log("fruits",fruits)
 // fruits.shift()
-
+// console.log("fruits",fruits)
 // fruits.splice(0, 2); 
-
-
-
+// console.log("fruits",fruits)
+// delete fruits; 
+// console.log("fruits",fruits)
 
 //every and some
-// var products=[{id:1,name:'tv',price:2000}]
+var products=[{id:1,name:'tv',price:2000}]
 
 
-// var ages = [32, 33, 1, 40];
+// var ages = [32, 33, 9, 40];
 
 // function checkAdult(age) {
 //   return age >= 18;
@@ -27,7 +27,7 @@
 // value=ages.every(checkAdult)
 // console.log("value",value)
 
-// var ages = [3, 10, 18, 20];
+// var ages = [3, 1, 1, 2];
 
 // function checkAdult(age) {
 //   return age >= 18;
@@ -36,20 +36,39 @@
 // console.log("value",value)
 
 
-//map filter
-const arr=[1,2,3,4,5,6]
-const newArr=arr.filter(a=> a%2===0)
-console.log("newArr",newArr)
+//map and filter
+// const arr=[1,2,3,5,6]
+// // const newArr=arr.filter(a=> a%2!=0)
+// // console.log("newArr",newArr)
 // const newArrmap=arr.map(a=> a*a)
-// console.log("newArr",newArrmap)
+//  console.log("newArr",newArrmap)
 
 
 
 
-//foreach
-// fruits.forEach((item,index,arr)=>{
-//     console.log("item",item,index) 
-// });
+// // //foreach
+// var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// // fruits.forEach((item,index,arr)=>{
+// //     console.log("item",item,index) 
+// // });
+// var products=[{id:1,name:'addidas',price:2000},
+// {id:2,name:'nike',price:4000},{id:3,name:'rebook',price:8000}]
+
+// products.forEach(callBack)
+
+
+//  function callBack(item,index,arr){
+//     priceArr=[]
+//     console.log("item",item.name,item.price,index)
+//     priceArr.push(item.price)
+//     if(item.price>5000){
+
+//         return true
+//     }
+
+//  }
+
+
 
 // for (let i=0;i<fruits.length;i++){
 
@@ -158,3 +177,12 @@ console.log("newArr",newArr)
 // console.log(sports)
 //array distructuring  
 //
+
+
+//  var fruits = ["Banana", "Orange", "Apple", "Mango"];
+//  var n = fruits.includes("Mango");
+//  console.log("n",n)
+// var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// var a = fruits.indexOf("Apple");
+// console.log("a",a)
+// delete  fruit[a]
