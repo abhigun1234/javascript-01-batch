@@ -38,7 +38,7 @@
 class Person{
 
     constructor(_id,_name){
-   console.log("hello constructor")
+   console.log("hello constructor parent")
    this.id=_id;
    this.name=_name
     }
@@ -54,3 +54,12 @@ let p1=new Person(1,'abrar')
 p1.getPersonData()
 let p2=new Person(2,'abhishek')
 p1.getPersonData()
+
+class Employee extends Person{
+
+    constructor(){
+        console.log("constructor of child")
+        super()
+    }
+}
+let e1=new Employee()
