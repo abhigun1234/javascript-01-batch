@@ -1,4 +1,11 @@
-
+// var arr = ["Hello", "World","bye"]  
+  
+// // destructuring assignment  
+// var [first, second,third] = arr;  
+  
+// console.log(first); // Hello  
+// console.log(second); // World  
+// console.log(third); // World  
 //push pop shift unshift
 
 //  const fruits = ["Banana", "Orange", "Apple", "Mango"];
@@ -186,3 +193,14 @@ var products=[{id:1,name:'tv',price:2000}]
 // var a = fruits.indexOf("Apple");
 // console.log("a",a)
 // delete  fruit[a]
+
+var hello=function(){
+
+
+}
+var hello=(str)=>{
+console.log("str",str)
+
+}
+
+hello('abhi')

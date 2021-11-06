@@ -41,26 +41,27 @@
 // let raj=new Person('raj','r@gmail.com')
 // raj.hello()
 // console.log("email",himanshu.email)
-class Student{
+// class Student{
 
-    constructor(name,age){
+//     constructor(name,age){
 
-         this._name=name
-         this.age=age
-    }
-    setName(name){
+//          this._name=name
+//          this.age=age
+//     }
+//     setName(name){
 
-        this._name=name
-    }
-    getName(){
+//         this._name=name
+//     }
+//     getName(){
 
-return  this._name
-    }
-}
+// return  this._name
+//     }
+// }
 
-let s1=new Student('abhi',24)
-let s2=new Student('ravi',22)
-console.log(s1._name)
-s1.setName("abc")
-console.log(s1.getName())
+// let s1=new Student('abhi',24)
+// let s2=new Student('ravi',22)
+// console.log(s1._name)
+// s1.setName("abc")
+// console.log(s1.getName())
+
 
