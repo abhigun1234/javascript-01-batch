@@ -44,10 +44,26 @@ var products=[{id:1,name:'tv',price:2000}]
 
 
 //map and filter
-// const arr=[1,2,3,5,6]
-// // const newArr=arr.filter(a=> a%2!=0)
-// // console.log("newArr",newArr)
-// const newArrmap=arr.map(a=> a*a)
+const arr=[1,2,3,5,6]
+// const newArr=arr.filter(a=> a%2===0)
+// console.log("newArr",newArr)
+// for for each map 
+students=[{name:'ravi',address:"delhi"},{name:'ravi',address:"delhi"}]
+const newArrmap=students.map(myFunc)
+
+function myFunc(){
+
+   
+    for(var i=0;i<students.length;i++){
+
+        console.log("item",students[i])
+    }
+   
+}
+// for(var i=0;i<students.length;i++){
+
+//     console.log("item",item)
+// }
 //  console.log("newArr",newArrmap)
 
 
@@ -194,13 +210,13 @@ var products=[{id:1,name:'tv',price:2000}]
 // console.log("a",a)
 // delete  fruit[a]
 
-var hello=function(){
+// var hello=function(){
 
 
-}
-var hello=(str)=>{
-console.log("str",str)
+// }
+// var hello=(str)=>{
+// console.log("str",str)
 
-}
+// }
 
-hello('abhi')
+// hello('abhi')

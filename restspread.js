@@ -1,8 +1,21 @@
-function add(num1,num2){
 
-    return num1+num2
-}
-var value=add(num1+num2)
+arr1=[1,2,3]
+arr2=[4,arr1]
+console.log("arr2",arr2[1])
+arr2=[4,...arr1]
+console.log("arr2",arr2[1])
+
+// function add(...nums){//2//3
+
+//     console.log("nums",nums)
+// }
+// add(10,2)
+// add(1,2,3)
+// add(1,2,3,4,"hello")
+
+
+// add(10,2,3,4,5,6,7)
+
 // function add(...num){
 // num.push(2)
 // console.log(num)
