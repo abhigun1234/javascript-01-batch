@@ -74,6 +74,9 @@ fruits.pop()
 console.log("fruits",fruits)
 fruits.shift()
 console.log("fruits",fruits)
+
+fruits.splice(2)
+console.log("fruits",fruits)
 // fruits.shift();  
 // var fruits = ["Banana", "Orange", "Apple", "Mango"];
 // fruits.unshift("Lemon");    // Adds a new element "Lemon" to fruits
