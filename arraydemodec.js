@@ -16,8 +16,30 @@
 // console.log("value",value)
 
 //map and filter
-const arr=[1,2,3,5,6]
-// const newArr=arr.filter(a=> a%2!=0)
+// const arr=[1,2,3,5,6]
+// const newArr=arr.filter(callBack)
+// console.log("newArr",newArr)
+// function callBack(){
+
+//    return  a%2!=0
+// }
 // console.log("newArr",newArr)
 // const newArrmap=arr.map(a=> a*a)
 //  console.log("newArr",newArrmap)
+
+function hello(str,fun){
+
+   console.log("hello",str)
+   fun()
+}
+function bye(){
+
+   console.log("bye")
+}
+hello("abhishek",bye)
+
+
+
+
+
+

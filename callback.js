@@ -1,30 +1,29 @@
-function myDisplayer(some,myfunc) {
-    console.log("some",some)
-    myfunc()
-  }
-  function hello(){
+// function myDisplayer(some,myfunc) {
+//     console.log("some",some)
+//     myfunc()
+//   }
+//   function hello(){
 
-    console.log("hello")
-  }
-  function myCalculator(num1, num2, myCallback,fun) {
-    let sum = num1 + num2;
-    myCallback(sum,fun);
-  }
+//     console.log("hello")
+//   }
+//   function myCalculator(num1, num2, myCallback,fun) {
+//     let sum = num1 + num2;
+//     myCallback(sum,fun);
+//   }
   
-  myCalculator(5, 5, myDisplayer,hello);
+//   myCalculator(5, 5, myDisplayer,hello);
 
 
-// function bye(str){
+function bye(str){
 
-//     console.log("bye",str)
-// }
-// function hello(myfunc){
+    console.log("bye",str)
+}
+function hello(myfunc){
   
-//     myfunc("react batch lets meet on next week")
+    myfunc("react batch lets meet on next week")
 
-// }
-
-
+}
 
 
 hello(bye)
+

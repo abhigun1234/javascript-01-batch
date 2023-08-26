@@ -1,18 +1,18 @@
 
-// var a=10;//primitive types
-// var b={name:"ravi"}// objects
+var a=10;//primitive types
+var b={name:"ravi"}// objects
 
-// function checkByvalOrRef(arg1,arg2){
-//     arg1=45;
-//     arg2.name="kavi"
-//     console.log("value of a ",a)
-//     console.log("value of b ",b)
-// }
+function checkByvalOrRef(arg1,arg2){
+    arg1=45;
+    arg2.name="kavi"
+    console.log("value of a ",a)
+    console.log("value of b ",b)
+}
 
 
-// checkByvalOrRef(a,b)
-// console.log("value of a ",a)
-// console.log("value of b ",b)
+checkByvalOrRef(a,b)
+console.log("value of a ",a)
+console.log("value of b ",b)
 
 
 // function hello(func){

@@ -220,3 +220,10 @@ function myFunc(){
 // }
 
 // hello('abhi')
+
+fruits.forEach((item,index,arr)=>{
+    console.log("item",item,index) 
+});
+// fruits.forEach(item=>{
+//     console.log("item",item) 
+// });
