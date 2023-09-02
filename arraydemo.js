@@ -22,7 +22,7 @@
 // console.log("fruits",fruits)
 
 //every and some
-var products=[{id:1,name:'tv',price:2000}]
+//var products=[{id:1,name:'tv',price:2000}]
 
 
 // var ages = [32, 33, 9, 40];
@@ -44,22 +44,22 @@ var products=[{id:1,name:'tv',price:2000}]
 
 
 //map and filter
-const arr=[1,2,3,5,6]
+// const arr=[1,2,3,5,6]
 // const newArr=arr.filter(a=> a%2===0)
 // console.log("newArr",newArr)
 // for for each map 
-students=[{name:'ravi',address:"delhi"},{name:'ravi',address:"delhi"}]
-const newArrmap=students.map(myFunc)
+// students=[{name:'ravi',address:"delhi"},{name:'ravi',address:"delhi"}]
+// const newArrmap=students.map(myFunc)
 
-function myFunc(){
+// function myFunc(){
 
    
-    for(var i=0;i<students.length;i++){
+//     for(var i=0;i<students.length;i++){
 
-        console.log("item",students[i])
-    }
+//         console.log("item",students[i])
+//     }
    
-}
+// }
 // for(var i=0;i<students.length;i++){
 
 //     console.log("item",item)
@@ -167,6 +167,8 @@ function myFunc(){
 //     return value % 2===0;
 // }
 // console.log(even)
+
+//FILTER DEMO
 // const people=[{
 //     name:'ravi',
 //     age:19
@@ -183,6 +185,21 @@ function myFunc(){
 // const adults =people.filter(person=>person.age>=3)
 // console.log("adults".adults)
 
+//find
+// var products = [
+//     { id: 1, productName: 'Samsung TV', price: 2300, brand: "Samsung" },
+//     { id: 2, productName: 'Apple iPod', price: 774, brand: "Apple" },
+//     { id: 3, productName: 'LG Monitor', price: 1200, brand: "LG" },
+//     { id: 4, productName: 'Apple iPad', price: 3500, brand: "Apple" },
+//     { id: 5, productName: 'Apple iPhone', price: 1800, brand: "Apple" }
+//   ];
+  
+//   var firstExpensiveProduct = products.find((p) => {
+//     return p.price >= 2000
+//   });
+  
+//   console.log(firstExpensiveProduct);
+  
 
 // function add(...nums){
 
@@ -221,9 +238,82 @@ function myFunc(){
 
 // hello('abhi')
 
-fruits.forEach((item,index,arr)=>{
-    console.log("item",item,index) 
-});
+// fruits.forEach((item,index,arr)=>{
+//     console.log("item",item,index) 
+// });
 // fruits.forEach(item=>{
 //     console.log("item",item) 
 // });
+
+
+
+/**
+ * 
+ * ARRAY class august-23
+ * 
+ * 
+ */
+
+// var arr=[0,1,2,3,4,5,"ravi"]
+// console.log("arr",arr)
+
+// methods
+
+// push pop
+
+
+
+ var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.push("water melon")
+// console.log("fruits",fruits)
+// fruits.pop()
+// console.log("fruits",fruits)
+//  fruits.unshift("Lemon");
+//  console.log("fruits",fruits)
+// fruits.shift();  
+// console.log("fruits",fruits)
+fruits.splice(0, 3);  
+ console.log("fruits",fruits)
+// var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.unshift("Lemon");    // Adds a new element "Lemon" to fruits
+// var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// delete fruits[0];   
+// var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.splice(0, 1);  
+// object
+// person={id:"1",name:"raj"}
+// console.log("person",person.id)
+// console.log("person",person.name)
+// var products = [
+//     { id: 1, productName: 'Samsung TV', price: 2300, brand: "Samsung" },
+//     { id: 2, productName: 'Apple iPod', price: 774, brand: "Apple" },
+//     { id: 3, productName: 'LG Monitor', price: 1200, brand: "LG" },
+//     { id: 4, productName: 'ranApple iPad', price: 3500, brand: "Apple" },
+//     { id: 5, productName: 'Apple iPhone', price: 1800, bd: "Apple" }
+//   ];
+
+//   for(var i=0;i<products.length;i++){
+
+//     console.log("product",products[i].productName)
+//   }
+
+// products.forEach(productDetails);
+
+// function productDetails(item,index,arr){
+//     console.log("item",item,index,arr) 
+// }
+
+// //map and filter
+//  const arr=[1,2,3,4,5,6]
+// //  const newArr=arr.filter(a=> a%2===1)
+// //  console.log("newArr",newArr)
+// const newArrmap=arr.map(a=> a*a)
+//  console.log("newArr",newArrmap)
+
+var ages = [31, 21, 31, 22];
+
+function checkAdult(age) {
+  return age >= 18;
+}
+value=ages.every(checkAdult)
+console.log("value",value)

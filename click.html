@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>addEventListener</title>
+    <style>
+      #div1
+      {
+        background-color: skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h4>click</h4>
+    <div id="div1">div 1</div>
+    <script>
+      document.getElementById("div1").addEventListener("click", sample);
+      document.getElementById("div1").addEventListener("click", sample2);
+      function sample()
+      {
+        document.getElementById("div1").innerHTML = "clicked 1 at " + new Date().toLocaleTimeString();
+      }
+      function sample2()
+      {
+        document.getElementById("div1").innerHTML += " clicked 2 at " + new Date().toLocaleTimeString();
+      }
+    </script>
+  </body>
+</html>
+
+

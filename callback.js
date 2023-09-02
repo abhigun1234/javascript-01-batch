@@ -20,7 +20,9 @@ function bye(str){
 }
 function hello(myfunc){
   
-    myfunc("react batch lets meet on next week")
+    return function (){
+      console.log("hello")
+    }
 
 }
 

@@ -56,3 +56,39 @@ function add(){
 
 
     }
+
+
+    const  url ='./person.js'
+function myJson(){
+
+    fetch('./person.json').then(res=>
+    res.json()).then(data=>{
+        console.log("data",data)
+        data.forEach(element => {
+            console.log("elements",element)
+            makeList(element)
+        });
+    })
+}
+
+myJson()
+
+function makeList(item){
+    console.log("item",item)
+    const  calc =document.querySelector('.calc')
+    const div =document.createElement('div')
+     div.innerHTML=`${item.gender}`
+     calc.append(div)
+
+}
+
+// function readJson(){
+
+//     fetch('./person.json').then(res=>res.json()).then(data=>{
+
+//         //console.log("data",data)
+//         makeList(data)
+//     })
+// }
+
+// readJson()
