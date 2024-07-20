@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style >
+     .emicalc{
+
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        align-items: center;
+     }
+    </style>
+       <script src="emical.js"></script>
+</head>
+<body>
+    <div class="emicontainer">
+        <label>Emi Calculator</label>
+        <br>
+        <div class="emicalc">
+            <input id="creditcard" type="text" placeholder="Enter Credit card Bill" >
+            <input id="carloan" type="text" placeholder="Enter Car Loan" >
+            <input id="homeloan" type="text" placeholder="EnterHome Loanl" >
+            <input id="personal" type="text" placeholder=" Enter personal Loan" >
+            <button onclick="calculateTotalEmi()">+</button>
+            <button onclick="minus()">-</button>
+            <label id="lblName"></label>
+        </div>
+            
+
+
+</body>
+</html>
