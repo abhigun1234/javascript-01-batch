@@ -7,4 +7,10 @@ function calculateTotalEmi(){
     var result=num1+num2+num3+num4
     console.log("result",result)
     document.getElementById('lblName').innerHTML = result;
+    return result
+}
+
+
+getSaving(){
+    let total=calculateTotalEmi()
 }
