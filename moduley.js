@@ -1,13 +1,13 @@
-import {company,getCompany} from './modulaex'
+// import {company,getCompany} from './modulaex'
 
-console.log(company)
-console.log(getCompany())
-//Approach 2
+// console.log(company)
+// console.log(getCompany())
+// //Approach 2
 
-// import {company as x, getCompany as y} from './company1.js'
+import {company as x, getCompany as y} from './modulaex'
 
-// console.log(x)
-// console.log(y())
+console.log(x)
+console.log(y())
 // //Approach 3
 
 // import * as myCompany from './company1.js'

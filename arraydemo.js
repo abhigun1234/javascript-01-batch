@@ -1,3 +1,94 @@
+// var products=[{id:1,name:'tv',price:2000}]
+
+
+var ages = [2, 3, 1, 4];
+
+function checkAdult(age) {
+  return age >= 18;
+}
+
+value=ages.some(checkAdult)
+console.log("value",value)
+//map and filter
+// const personArrayData=[{"id":1,"first_name":"Tye","last_name":"Ladds","email":"tladds0@google.com.au","gender":"Male"},
+//   {"id":2,"first_name":"Amye","last_name":"Mollett","email":"amollett1@domainmarket.com","gender":"Female"},
+//   {"id":3,"first_name":"Filide","last_name":"Titterton","email":"ftitterton2@biblegateway.com","gender":"Female"},
+//   {"id":4,"first_name":"Sol","last_name":"Blumson","email":"sblumson3@xinhuanet.com","gender":"Male"},
+//   {"id":5,"first_name":"Cloe","last_name":"Tutchings","email":"ctutchings4@ihg.com","gender":"Genderqueer"},
+//   {"id":6,"first_name":"Jermayne","last_name":"Paddle","email":"jpaddle5@unc.edu","gender":"Male"},
+//   {"id":7,"first_name":"Egor","last_name":"Prendergast","email":"eprendergast6@shop-pro.jp","gender":"Male"},
+//   {"id":8,"first_name":"Farica","last_name":"John","email":"fjohn7@state.gov","gender":"Female"},
+//   {"id":9,"first_name":"Ericha","last_name":"Hadcroft","email":"ehadcroft8@bbc.co.uk","gender":"Female"},
+//   {"id":10,"first_name":"Pepita","last_name":"Libero","email":"plibero9@ucoz.com","gender":"Female"}]
+// // const arr=[1,2,3,5,6]
+// const newArr=personArrayData.map(callBack)
+// function callBack(a){
+//  console.log("a",a)
+// }
+// personArrayData.filter(person=>{
+//   console.log("perosn",person)
+// })
+// console.log("newArr",newArr)
+// for for each map 
+// students=[{name:'ravi',address:"delhi"},{name:'ravi',address:"delhi"}]
+// const newArrmap=students.map(myFunc)
+
+
+//  var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// console.log('fruits',fruits)
+// fruits.push("sweet lime")
+// console.log("fruits",fruits)
+// fruits.unshift("Sweet Lime")
+// console.log("fruits",fruits)
+// fruits.shift()
+// console.log("fruits",fruits)
+// fruits.splice(0, 2); 
+// console.log("fruits",fruits)
+// fruits.pop()
+// console.log('fruits',fruits)
+// delete fruits; 
+// console.log("fruits",fruits)
+
+//declaring a array
+
+// let fruits=['banaana','apple','mango','watermelon',{name:'lemon'}]
+
+
+// // 1
+// for(let i=0;i<fruits.length;i++){
+//   console.log("fruits",fruits[i])
+// }
+// // 2
+// for (let fruit of fruits){
+//   console.log("fruit",fruit)
+// }
+// var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.forEach((item,index,arr)=>{
+//     console.log("item",item,index,arr) 
+// });
+
+// var callback=>((item,index,arr)=>{
+//     console.log("item",item,index) 
+// });
+// let ArrayFruits=['banana','apple','orrenge','mango']
+// console.log("fruits",ArrayFruits[0])
+// console.log("fruits",ArrayFruits[1])
+// console.log("fruits",ArrayFruits[2])
+// console.log("fruits",ArrayFruits[3])
+
+
+// // loop
+// for(let fruit=0;fruit<ArrayFruits.length;fruit++){
+//   console.log("fruits",ArrayFruits[fruit])
+// }
+// //
+// for (let fruit of ArrayFruits){
+//   console.log("fruit",fruit)
+// }
+
+// ArrayFruits.map(fruit=>{
+//   console.log("fruit",fruit)
+// })
 // var arr = ["Hello", "World","bye"]  
   
 // // destructuring assignment  
@@ -8,8 +99,9 @@
 // console.log(third); // World  
 //push pop shift unshift
 
-//  const fruits = ["Banana", "Orange", "Apple", "Mango"];
-
+ //const fruits = ["Banana", "Orange", "Apple", "Mango"];
+//  var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// console.log('fruits',fruits)
 // fruits.push("sweet lime")
 // console.log("fruits",fruits)
 // fruits.unshift("Sweet Lime")
@@ -18,6 +110,8 @@
 // console.log("fruits",fruits)
 // fruits.splice(0, 2); 
 // console.log("fruits",fruits)
+// fruits.pop()
+// console.log('fruits',fruits)
 // delete fruits; 
 // console.log("fruits",fruits)
 
@@ -263,7 +357,7 @@
 
 
 
- var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
 // fruits.push("water melon")
 // console.log("fruits",fruits)
 // fruits.pop()
@@ -272,8 +366,8 @@
 //  console.log("fruits",fruits)
 // fruits.shift();  
 // console.log("fruits",fruits)
-fruits.splice(0, 3);  
- console.log("fruits",fruits)
+// fruits.splice(0, 3);  
+//  console.log("fruits",fruits)
 // var fruits = ["Banana", "Orange", "Apple", "Mango"];
 // fruits.unshift("Lemon");    // Adds a new element "Lemon" to fruits
 // var fruits = ["Banana", "Orange", "Apple", "Mango"];

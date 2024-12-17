@@ -80,12 +80,12 @@ console.log("out b",b)
 
 // hello()
 //es6 fat arraow
-var hello=(a)=>{
+// var hello=(a)=>{
 
-    console.log("hello")
+//     console.log("hello")
 
-}
+// }
 
-hello(2)
+// hello(2)
 //  factorial of the no  and peint the table of the same no with es6 fat arrow function also check the no 
 //is even or odd

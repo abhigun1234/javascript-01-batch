@@ -1,14 +1,21 @@
 console.log(__filename)
 // path of your file
  console.log(__dirname)
+
+ setTimeout(callback,2000)
+
+ function callback(){
+    console.log("my work is done")
+ }
+ console.log("continu your work")
  // dir or folder path of your file
 
-//setTimeout(callBack,5000)
-setInterval(callBack,2000)
-function callBack(){
+// setTimeout(callBack,5000)
+// setInterval(callBack,2000)
+// function callBack(){
 
-  console.log(" excuting the method")
-}
+//   console.log(" excuting the method")
+// }
 
 // function hello()
 // {

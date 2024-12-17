@@ -1,9 +1,9 @@
 
-arr1=[1,2,3]
-arr2=[4,arr1]
-console.log("arr2",arr2[1])
-arr2=[4,...arr1]
-console.log("arr2",arr2[1])
+// arr1=[1,2,3]
+// arr2=[4,arr1]
+// console.log("arr2",arr2[1])
+// arr2=[4,...arr1]
+// console.log("arr2",arr2[1])
 
 // function add(...nums){//2//3
 
@@ -38,3 +38,13 @@ console.log("arr2",arr2[1])
 // phoneno='jjjj'
 // city='pune'
 // var result=add(_name,phoneno,city)
+// function add(...nums){
+//     console.log("nums",nums)
+//     // return a+b+c+d
+// }
+
+// add(10,20,23,34)
+// console.log("result",result)
+// arr1=[1,2,3]
+// arr2=[4,...arr1]
+// console.log("arr2",arr2)

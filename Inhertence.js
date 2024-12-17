@@ -1,7 +1,7 @@
 class GrandParent{
 
     constructor(){
-       console.log(" constructor Parent")
+       console.log(" constructor grand Parent")
 
     }
     getParentProprety(){
@@ -16,7 +16,7 @@ class Parent extends GrandParent{
     constructor(){
        
         super()
-        console.log(" constructor child")
+        console.log(" constructor parent")
        
     }
     getParentNewProp(){
@@ -27,18 +27,19 @@ class Child extends Parent{
     constructor(){
        
         super()
-        console.log(" constructor child")
+        console.log("  child")
        
     }
 }
 let c1=new Child()
-
-parent Person
-getEmailId
-setEmaild
-getAddress
-setAdress
-child Student
-getMarks
-setmarks
+c1.getParentNewProp()
+// // 
+// parent Person
+// getEmailId
+// setEmaild
+// getAddress
+// setAdress
+// child Student
+// getMarks
+// setmarks
 
